@@ -1,0 +1,52 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+    color: #25282b;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header > div {
+    padding: 12px 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+nav > a {
+    margin-right: 48px;
+}
+
+nav > a:last-child {
+    margin-right: 0;
+}
+
+.hero-details {
+    width: 486px;
+}
+
+.hero-img > img {
+    width: 486px;
+    height: auto;
+}
